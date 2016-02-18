@@ -1,9 +1,10 @@
 [user]
-    name = Oliver Caldwell
-    email = olliec87@gmail.com
+	name = Joshua Ramsbottom
+	email = joshuaramsbottom@gmail.com
 [core]
     editor = vim
     excludesfile = ~/.gitexcludes
+	autocrlf = input
 [color]
     ui = true
 [push]
@@ -12,7 +13,7 @@
     tool = vimdiff
 [merge]
     tool = vimdiff
-    conflictstyle = diff3
+	conflictstyle = merge
 [mergetool]
     keepbackup = false
 [include]
